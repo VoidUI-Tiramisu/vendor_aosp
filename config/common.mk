@@ -111,6 +111,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     GameSpace
 
+# Themes
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay
+
 # TouchGestures
 PRODUCT_PACKAGES += \
     TouchGestures
