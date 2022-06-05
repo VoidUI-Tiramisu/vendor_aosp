@@ -15,6 +15,7 @@ PRODUCT_PACKAGES += \
     CellBroadcastServiceOverlay \
     SettingsGoogleOverlay \
     SettingsGoogleOverlayPixel2021 \
+    SettingsGoogleProviderOverlay \
     TelephonyProviderOverlay \
     ContactsProviderOverlay \
     PixelConfigOverlay2018 \
