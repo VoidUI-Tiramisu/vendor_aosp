@@ -100,6 +100,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common
 
+# GameSpace
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # TouchGestures
 #PRODUCT_PACKAGES += \
 #    TouchGestures
