@@ -117,6 +117,10 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     DummyCutoutOverlay
 
+# GameSpace
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # TouchGestures
 PRODUCT_PACKAGES += \
     TouchGestures
