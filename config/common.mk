@@ -120,6 +120,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     NavigationBarMode2ButtonOverlay
 
+# Immersive Navigation Overlay
+PRODUCT_PACKAGES += \
+    ImmersiveNavigationOverlay
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
