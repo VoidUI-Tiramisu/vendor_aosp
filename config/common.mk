@@ -119,9 +119,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     NavigationBarMode2ButtonOverlay
 
-# Hide navigation bar hint
+# Immersive Navigation Overlay
 PRODUCT_PACKAGES += \
-    NavigationBarNoHintOverlay
+    ImmersiveNavigationOverlay
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
