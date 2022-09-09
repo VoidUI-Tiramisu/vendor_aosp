@@ -234,8 +234,13 @@ $(call inherit-product, vendor/aosp/config/bootanimation.mk)
 # Fonts
 $(call inherit-product, vendor/aosp/config/fonts.mk)
 
-# GApps
+# GApps Mini
+TARGET_USES_MINI_GAPPS ?= false
+ifeq ($(TARGET_USES_MINI_GAPPS),true)
+$(call inherit-product, vendor/gapps/config_mini.mk)
+else
 $(call inherit-product, vendor/gapps/config.mk)
+endif
 
 # OTA
 $(call inherit-product, vendor/aosp/config/ota.mk)
