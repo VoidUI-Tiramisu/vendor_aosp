@@ -1,5 +1,5 @@
 # Type of Build
-CUSTOM_BUILD_TYPE ?= UNOFFICIAL
+CUSTOM_BUILD_TYPE ?= COMMUNITY
 
 # VoidUI Props
 VoidUI_BASE_VERSION = Tiramisu
