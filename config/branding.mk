@@ -2,7 +2,7 @@
 CUSTOM_BUILD_TYPE ?= COMMUNITY
 
 # VoidUI Props
-VoidUI_BASE_VERSION = Tiramisu
+VoidUI_BASE_VERSION = Thunderstorm
 
 # Time Related
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
