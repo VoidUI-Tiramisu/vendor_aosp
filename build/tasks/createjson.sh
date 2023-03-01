@@ -35,7 +35,7 @@ if [ -f $existingOTAjson ]; then
 	v_max=`echo "$version" | cut -d'.' -f1 | cut -d'v' -f2`
 	v_min=`echo "$version" | cut -d'.' -f2`
 	version="$4"
-	download="https://sourceforge.net/projects/voidui/files/$1/Releases/$3/download"
+	download="https://sourceforge.net/projects/voidui/files/$1/Weeklies/$3/download"
 	buildprop=$2/system/build.prop
 	linenr=`grep -n "ro.system.build.date.utc" $buildprop | cut -d':' -f1`
 	timestamp=`sed -n $linenr'p' < $buildprop | cut -d'=' -f2`
