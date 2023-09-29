@@ -43,12 +43,12 @@ except ImportError:
 DEBUG = False
 
 custom_local_manifest = ".repo/local_manifests/pixel.xml"
-custom_default_revision = os.getenv('ROOMSERVICE_DEFAULT_BRANCH', 'thirteen')
+custom_default_revision = os.getenv('ROOMSERVICE_DEFAULT_BRANCH', 'aosp-13-sept')
 custom_fallback_revision = 'thirteen'
 uses_fallback_revision = False
 custom_dependencies = "aosp.dependencies"
-org_manifest = "pixel-devices"  # leave empty if org is provided in manifest
-org_display = "PixelExperience-Devices"  # needed for displaying
+org_manifest = "voidui-devices"  # leave empty if org is provided in manifest
+org_display = "VoidUI-Devices" # needed for displaying
 
 github_auth = None
 
