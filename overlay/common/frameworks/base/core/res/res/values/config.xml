@@ -104,9 +104,6 @@
         <!-- Globally enable the new photo picker -->
         <item>storage_native_boot/take_over_get_content=true</item>
 
-        <!-- Pixel Launcher -->
-        <item>launcher/ENABLE_SMARTSPACE_ENHANCED=true</item>
-
         <!-- System Ui -->
         <item>systemui/clipboard_overlay_show_actions=true</item>
         <item>systemui/quick_access_wallet_enabled=true</item>
